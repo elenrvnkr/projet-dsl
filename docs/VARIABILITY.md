@@ -3,20 +3,24 @@
 # Espace de variantes
 
 Types de variations observées sur Ludii :
-- Plateau : 
-  - taille, 
-  - forme, 
+
+- Plateau :
+  - taille,
+  - forme,
   - espace dimensionnel.
 - Nombre de joueurs.
 - Condition de victoire.
-- Comportement des pions : 
+- Comportement des pions :
   - quels placements sont autorisés,
   - disparition au bout d'un certain nombre de tours ou non,
   - interaction avec les autres pions,
   - déplacement autorisé ou non.
 
-Variations non observées sur Ludii : 
+Variations non observées sur Ludii :
+
 - blablabla
 
 Contraintes entre les variations :
-- la taille et la condition de victoire doivent être adaptées au nombre de joueurs pour permettre à un joueur de gagner. 
+
+- La taille du plateau et la condition de victoire doivent être adaptées au nombre de joueurs pour permettre à un joueur de gagner.
+- La condition de victoire doit prendre en compte l'espace dimensionnel.
