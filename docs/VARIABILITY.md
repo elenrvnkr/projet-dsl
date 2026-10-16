@@ -4,6 +4,14 @@
 
 Types de variations observées sur Ludii :
 
-- variations de plateau : taille, forme, espace dimensionnel
-- variations de nombre de joueurs : version classique à 2 joueurs, variantes à 3 ou plus.
-- variations du type et du comportement des pions
+- Plateau : 
+  - taille, 
+  - forme, 
+  - espace dimensionnel.
+- Nombre de joueurs.
+- Nombre de pions à aligner pour déclencher la condition de victoire.
+- Comportement des pions : 
+  - disparition au bout d'un certain nombre de tours ou non,
+  - interaction avec les autres pions,
+  - déplacement autorisé ou non.
+
