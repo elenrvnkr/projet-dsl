@@ -9,3 +9,4 @@ Leurs variantes reposent selon :
 - les modalités de déplacement des pions (par exemple : on peut placer partout sur le plateau du tic tac toe alors qu'on peut pas le faire dans le puissance 4)
 - si les lignes formées peuvent être diagonales ou pas, si elles peuvent être horizontales ou pas, verticales ou pas...
 
+Ludii les décrit en précisant la taille du plateau, la condition de victoire (par exemple pour le tic tac toe : il faut essayer "to get three in a row of their colour"), les pions. 
