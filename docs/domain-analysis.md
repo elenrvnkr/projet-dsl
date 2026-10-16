@@ -4,6 +4,8 @@ Le concept des jeux du dossier ludi/ sont des jeux d'alignements où l'objectif 
 
 Leurs variantes reposent selon : 
 - si le but est d'aligner des pions ou, au contraire, de faire en sorte que l'adversaire aligne ses pions
-- le nombre de pions nécessaires à aligner (3,4, 5, 6...)
+- le nombre de pions nécessaires à aligner (3,4,5,6...)
 - la taille du plateau
 - les modalités de déplacement des pions (par exemple : on peut placer partout sur le plateau du tic tac toe alors qu'on peut pas le faire dans le puissance 4)
+- si les lignes formées peuvent être diagonales ou pas, si elles peuvent être horizontales ou pas, verticales ou pas...
+
