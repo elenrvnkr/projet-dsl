@@ -14,7 +14,14 @@ Celui-ci est un peu différent car il définit des fonctions qui lui sont propre
 
 (issus du cours)
 
-## GDL: Stanford General Game Playing (excerpt) : 
+## GDL: Stanford General Game Playing (excerpt) :
+
+Nathaniel Love, Timothy Hinrichs, David Haley, Eric Schkufza, and
+Michael Genesereth. General game playing: Game description language specification, 2008.
+
+
+
+```
 (role x) (role o)
 (init (cell 1 1 b)) ... (init (control x))
 (<= (legal ?p (mark ?m ?n))
@@ -25,9 +32,15 @@ Celui-ci est un peu différent car il définit des fonctions qui lui sont propre
 (<= (goal ?p 100) (line ?p)
 GDL: logic programming (Datalog-like). General game players read the rules of a game they have never seen, then play it.
 GDL-II adds chance and hidden information (cards!)
+```
 
 ## Ludii (.lud): the complete game
 
+Piette, É., Soemers, D. J. N. J., Stephenson, M., Sironi, C. F., Winands, M. H. M., &amp; Browne, C. (2019). Ludii -- The Ludemic General Game System. arXiv e-prints (arXiv:1905.05013). https://doi.org/10.48550/arXiv.1905.05013 
+
+Ludii est un langage de description de jeux. Il est composé de centaines de ludeme qui sont des composants de règles combinables, il décrit plus de 1 000 jeux et inclut une IA de joueur générique.
+
+```
 (game "Tic-Tac-Toe"
 (players 2)
 (equipment {
@@ -38,12 +51,24 @@ GDL-II adds chance and hidden information (cards!)
 (rules
 (play (move Add (to (sites Empty))))
 (end (if (is Line 3) (result Mover Win)))))
-
-Ludii: hundreds of ludemes (board, piece, move, Line…) as domain concepts; 1,000+ traditional games and generic AI
-players included
+```
 
 ## RBG
 
-RBG (regular languages, fast reasoning)
+@misc{kowalski2018regularboardgames,
+      title={Regular Boardgames}, 
+      author={Jakub Kowalski and Maksymilian Mika and Jakub Sutowicz and Marek Szykuła},
+      year={2018},
+      eprint={1706.02462},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/1706.02462}, 
+}
+
+RBG est un langage de description de jeux. (regular languages, fast reasoning)
 
 ## un autre protocole (mort)
+
+## En quoi notre DSL se détache de l'existant
+
+moins générique
