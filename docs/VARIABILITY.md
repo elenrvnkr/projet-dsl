@@ -20,6 +20,7 @@ Types de variations observées sur Ludii :
   - déplacement autorisé ou non.
 - Dimension des lignes :
   - longueur des lignes,
+  - si pour gagner la longueur doit être exactements égales ou peut être supérieur (gomoku),
   - directions comptées (horizontal, vertical, diagonal)
 
 Variations non observées sur Ludii :
